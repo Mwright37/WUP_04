@@ -43,9 +43,15 @@ basicCN <- ggplot(GSS,aes(x=DEGREE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
+This box plot shows that the bachelor and graduate people tend to do better on the wordsum test.  
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=GSS)
+```
 
 ## Inferential Results
 
