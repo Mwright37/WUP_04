@@ -73,8 +73,10 @@ par(mar = c(3, 16, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-The Tukey Plot shows that the LT HS Graduates and the HS Graduates have diffeent word scores.   
+The Tukey Plot shows that the LT HS Graduates and the HS Graduates have different word scores.   
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The original question was, is there a difference between wordsum scores based on degree. We found that there is a difference (p value =0.002). LT HS Graduates and the HS Graduates have different word scores. 
